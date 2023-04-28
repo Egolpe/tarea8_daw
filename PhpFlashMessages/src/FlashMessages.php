@@ -2,7 +2,9 @@
 namespace Plasticbrain\FlashMessages;
 
 class FlashMessages {
-
+    /**
+     *@author Enrique Golpe -  FP DAW
+    */
     // Message types and shortcuts
     const INFO    = 'i';
     const SUCCESS = 's';
@@ -439,6 +441,8 @@ class FlashMessages {
 
         return $this;
     }
-
+    /**
+     * @copyright todos los derechos reservado @2023
+     */
 
 }
