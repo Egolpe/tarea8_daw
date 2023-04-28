@@ -36,14 +36,14 @@ class FlashMessages {
     protected $msgBefore = '';  
     protected $msgAfter  = ''; 
     
-    // HTML for the close button
+    // close button template
     protected $closeBtn  = '<button type="button" class="close" 
                                 data-dismiss="alert" 
                                 aria-label="Close">
                                 <span aria-hidden="true">&times;</span>
                             </button>';
     
-    // CSS Classes
+    // CSS Classes for warnings states
     protected $stickyCssClass = 'sticky';
     protected $msgCssClass = 'alert dismissable';
     protected $cssClassMap = [ 
